@@ -1,0 +1,138 @@
+/* Add these styles for the form */
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.25rem; /* Bigger text for the title */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.title-input:focus {
+    border-color: #007bff;
+}
+
+.description-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem; /* Smaller text for the description */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+.description-input:focus {
+    border-color: #007bff;
+}
+
+.add-task-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-task-button:hover {
+    background-color: #0056b3;
+}
+
+.create-task-button {
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-task-button:hover {
+    background-color: #0056b3;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .task-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .task-item p {
+    margin: 5px 0;
+  }
+
+  .delete-task-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-task-button:hover {
+    background-color: darkred;
+  }
+  .update-task-button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .update-task-button:hover {
+    background-color: darkgoldenrod;
+  }
+  
+  .confirm-task-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .confirm-task-button:hover {
+    background-color: darkgreen;
+  }
+  .completed-task {
+    color: gray;
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
